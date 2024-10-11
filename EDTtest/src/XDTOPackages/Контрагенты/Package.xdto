@@ -1,0 +1,16 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://ironskills.by">
+	<objectType name="Partner">
+		<property name="name" type="xs:string" nillable="true"/>
+		<property name="fullname" type="xs:string" nillable="true"/>
+		<property name="partner_type" type="xs:string" nillable="true"/>
+		<property name="inn" type="xs:string" nillable="true"/>
+		<property name="kpp" type="xs:string" nillable="true"/>
+		<property name="phone" type="xs:string" nillable="true"/>
+		<property name="email" type="xs:string" nillable="true"/>
+		<property name="is_customer" type="xs:boolean" nillable="true"/>
+		<property name="is_supplier" type="xs:boolean" nillable="true"/>
+	</objectType>
+	<objectType name="PartnersList">
+		<property xmlns:d3p1="http://ironskills.by" name="Partner" type="d3p1:Partner" upperBound="-1"/>
+	</objectType>
+</package>

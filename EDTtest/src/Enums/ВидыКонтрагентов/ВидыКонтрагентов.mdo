@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3e109c2-fc48-49e0-b71a-31add359fc10">
+  <producedTypes>
+    <refType typeId="9956a907-e510-46b4-8c28-ffd487182ce8" valueTypeId="bd22fdea-5114-4cc1-b782-8d2c8b086d5c"/>
+    <listType typeId="44d4d63b-701c-42e2-ad45-17e3d9bba44a" valueTypeId="6a5cca58-899d-4e26-84fd-c26d2f6f5952"/>
+    <managerType typeId="fa0f6cb8-3c22-4511-a068-4b5b34e384e1" valueTypeId="dfc6e6c3-b1f9-4f6e-9e2d-9e2d9eaab469"/>
+  </producedTypes>
+  <name>ВидыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрагентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e64d368-7fd9-49e4-9a2e-8645e481d354">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="219597f6-17b2-41c2-9701-d5e8dd5dac09">
+    <name>ИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a3cd2e7-dd3b-4b6e-8035-2b07169591e9">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f1ce00c-88ca-4fd6-a6b8-e4be03464b74">
+    <name>ГосударственныйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Государственный орган</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

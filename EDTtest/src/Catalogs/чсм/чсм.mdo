@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0b8a7a3-7986-48db-ba34-f241a4ef6557">
+  <producedTypes>
+    <objectType typeId="edeaa85e-a91d-438d-9f91-b28f1ebf0bc9" valueTypeId="8f5f30fc-0d69-4e79-b8ed-d236e035d8f2"/>
+    <refType typeId="e4b7f5ef-616c-4fa3-9ac0-5b0177307961" valueTypeId="ae1ed02f-013b-4808-9107-7d1a56668dfe"/>
+    <selectionType typeId="0afcd416-749e-46a2-995a-c77cf022304a" valueTypeId="02c27148-8609-4828-bcc2-99af7ad39011"/>
+    <listType typeId="f7dd26e0-c7c3-48a4-8163-d9e749dd0c6a" valueTypeId="921f7014-c08e-4d5e-ad20-a34d5a04c588"/>
+    <managerType typeId="b96c5437-f89e-4e4f-abaf-f4ffac9725d9" valueTypeId="336a204d-66be-4e6e-944b-8dc92f2f5f9f"/>
+  </producedTypes>
+  <name>чсм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чсм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.чсм.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.чсм.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
