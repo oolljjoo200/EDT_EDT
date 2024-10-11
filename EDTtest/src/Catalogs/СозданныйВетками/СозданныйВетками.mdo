@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65883652-1138-433e-898e-3467e3e3d57e">
+  <producedTypes>
+    <objectType typeId="45e0a1f1-45a3-46ad-9e7f-a12e2522fea1" valueTypeId="73a98419-9931-46cd-bdd5-3b1b0f9baa06"/>
+    <refType typeId="daea7a10-6b30-4429-9d50-3b00947dbe37" valueTypeId="eef147f7-66d3-477d-b64d-f575adc597e2"/>
+    <selectionType typeId="50ece37b-b2a4-4c3e-bdff-4e141b01c970" valueTypeId="a3673357-01ad-45df-b8ab-147251c1ca9e"/>
+    <listType typeId="b4de267a-5f89-4aca-b0b9-18449e9db7e4" valueTypeId="c828c226-a94b-4d1c-9300-cfc0b71def07"/>
+    <managerType typeId="3b8ed209-2a0a-43e3-951d-e2af7b0cefd6" valueTypeId="4eacad8d-03bf-408b-b91a-70b120bbcac1"/>
+  </producedTypes>
+  <name>СозданныйВетками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Созданный ветками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СозданныйВетками.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СозданныйВетками.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

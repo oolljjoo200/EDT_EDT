@@ -347,6 +347,7 @@
   <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.чсм</catalogs>
+  <catalogs>Catalog.СозданныйВетками</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
